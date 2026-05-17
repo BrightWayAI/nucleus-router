@@ -32,8 +32,14 @@ This skill is always loaded. Its job is to make Nucleus feel like a conversation
 
 1. **Match.** Walk the intent table top-to-bottom. Pick the first row whose pattern best matches the user's utterance. Semantic match, not regex.
 2. **Filter by installed plugins.** If you can detect which Nucleus plugins are installed in the current environment, skip rows whose plugin is missing. If you cannot detect, proceed without filtering — the user will see a "command not found" error if the underlying plugin isn't installed, which is acceptable.
-3. **Suggest + confirm.** Respond in the form: "Sounds like you want to run `/<command>` (one-line purpose). Run it?" Wait for the user to say yes / "go ahead" / "do it" / similar. Never invoke the command without explicit confirmation.
-4. **Dispatch on confirm.** When confirmed, invoke the slash command exactly as written. If the command needs arguments and the user hasn't given them, ask for what's needed (e.g., "What contact?" before `/lead-brief`).
+3. **Consult autonomy (v0.1.3+).** Look up the routed command's autonomy mode per `claude-cortex/references/autonomy.md`:
+   - Read `<config-root>/plugins/cortex.user-context.md` `autonomy:` section if it exists.
+   - Fall back to the default settings in `references/autonomy.md`.
+   - If the mode is **`auto`** → skip Step 4, just invoke the command directly with a one-line "Running `/<command>` now." note. No "ok to run?" prompt.
+   - If the mode is **`suggest`** (default) → proceed to Step 4 as usual.
+   - If the mode is **`confirm`** → use the same Step 4 prompt but add emphasis: "Want me to run `/<command>`? It'll prompt for confirmation on each material step."
+4. **Suggest + confirm** (suggest / confirm modes). Respond in the form: "Sounds like you want to run `/<command>` (one-line purpose). Run it?" Wait for the user to say yes / "go ahead" / "do it" / similar. Never invoke the command without explicit confirmation.
+5. **Dispatch.** Invoke the slash command exactly as written. If the command needs arguments and the user hasn't given them, ask for what's needed (e.g., "What contact?" before `/lead-brief`).
 
 ## Ambiguity rules
 

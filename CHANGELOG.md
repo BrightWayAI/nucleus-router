@@ -2,6 +2,11 @@
 
 All notable changes to this plugin will be documented in this file.
 
+## [0.1.3] — 2026-05-16
+
+### Added
+- Autonomy-mode consultation per `claude-cortex/references/autonomy.md` (v4.7.1+). Before suggesting confirmation, the router looks up the routed command's autonomy mode (user override in `<config-root>/plugins/cortex.user-context.md` → cortex defaults). For `auto` mode, the router invokes the command directly with a one-line note (no "ok to run?" prompt). For `confirm` mode, the prompt adds emphasis. For `suggest` (default), behavior unchanged.
+
 ## [0.1.2] — 2026-05-16
 
 ### Added
