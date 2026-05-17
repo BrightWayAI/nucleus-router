@@ -2,6 +2,14 @@
 
 All notable changes to this plugin will be documented in this file.
 
+## [0.1.4] — 2026-05-16
+
+### Added
+- Intent rows for cortex v4.8.0+'s `/start-nucleus` foundational onboarding walker. Routed phrases include "start nucleus", "let's get started", "set me up", "onboard me", "first time setup", "let's begin", "configure everything", "I just installed Nucleus, now what", "walk me through setup".
+
+### Removed
+- Intent row for `/observe` (cortex v4.8.0 pruned the slash command). Passive observation remains always-on via the cortex `observe` skill — no command needed. Phrases like "passively observe X" / "watch for X" no longer route to a command.
+
 ## [0.1.3] — 2026-05-16
 
 ### Added

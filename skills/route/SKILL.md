@@ -61,6 +61,12 @@ Both contribute to context. Order is irrelevant.
 
 Each section lists rows of the form `pattern → command`. Match semantically, not literally.
 
+### Onboarding — plugin: claude-cortex (v4.8+)
+
+| Utterance | Command |
+|---|---|
+| "start nucleus" / "let's get started" / "set me up" / "onboard me" / "first time setup" / "I just installed Nucleus" / "let's begin" / "walk me through setup" / "configure everything" | `/start-nucleus` |
+
 ### Memory and knowledge — plugin: claude-cortex
 
 | Utterance | Command |
@@ -75,7 +81,6 @@ Each section lists rows of the form `pattern → command`. Match semantically, n
 | "review my open threads" / "what's stale" / "any active loops" | `/review` |
 | "drill me on what I should remember" / "quiz me on…" / "review for retention" | `/rehearse` |
 | "I learned X from working on Y" / "lesson learned from the project" | `/learn` |
-| "passively observe X" / "watch for X" | `/observe` |
 | "wrap up the day" / "end of day" / "checkpoint today" | `/end-day` |
 | "wrap up the week" / "weekly retro" / "end of week" | `/end-week` |
 | "clean up my memory" / "prune stale entries" / "audit memory" | `/cleanup` |
