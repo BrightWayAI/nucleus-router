@@ -2,6 +2,11 @@
 
 All notable changes to this plugin will be documented in this file.
 
+## [0.1.2] — 2026-05-16
+
+### Added
+- Intent rows for cortex v4.7+ commands: `/listen` (nightly autonomous ingest) and `/morning` (interactive merge of overnight proposals). Routed phrases include "good morning," "start my day," "what happened overnight," "morning routine," "ingest yesterday," "mine yesterday's calendar," "process overnight," "run nightly ingest."
+
 ## [0.1.1] — 2026-05-16
 
 ### Added

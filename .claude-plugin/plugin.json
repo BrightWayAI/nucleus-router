@@ -1,6 +1,6 @@
 {
   "name": "nucleus-router",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "The JARVIS front door for Nucleus. An always-loaded skill that maps natural language to the right Nucleus slash command and confirms before running — so users never have to memorize 57 commands across 13 plugins.",
   "author": {
     "name": "BrightWay AI"

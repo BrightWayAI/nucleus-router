@@ -77,6 +77,8 @@ Each section lists rows of the form `pattern → command`. Match semantically, n
 | "what's missing from my memory" / "find gaps" / "research what we don't know" / "audit my knowledge for holes" (v4.5+) | `/research-gaps` |
 | "merge the research findings" / "apply the gap-fill draft" / "walk the research draft" (v4.5+) | `/merge-research-draft` |
 | "set up Obsidian" / "make this work on mobile" / "enable graph view" / "I want to use Obsidian" (v4.5+) | `/setup-obsidian` |
+| "good morning" / "start my day" / "what happened overnight" / "morning routine" / "merge last night's proposals" (v4.7+) | `/morning` |
+| "ingest yesterday" / "mine yesterday's calendar" / "process overnight" / "run nightly ingest" / "what happened yesterday I haven't captured" (v4.7+) | `/listen` |
 | "set up cortex" / "first-time setup" / "configure identity" | `/setup-identity` |
 | "set up my voice" / "teach Claude how I write" | `/setup-voice` |
 | "connect note sources" / "set up Granola/Gemini/Fireflies/Otter" | `/setup-sources` |
