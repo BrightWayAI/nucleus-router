@@ -2,6 +2,11 @@
 
 All notable changes to this plugin will be documented in this file.
 
+## [0.1.1] — 2026-05-16
+
+### Added
+- Intent rows for cortex v4.5+ commands: `/reindex`, `/research-gaps`, `/merge-research-draft`, `/setup-obsidian`. Routed phrases include "what's missing from my memory," "find gaps," "set up Obsidian," "enable graph view," "make this work on mobile," "regenerate the memory catalog."
+
 ## [0.1.0] — 2026-05-16
 
 ### Added

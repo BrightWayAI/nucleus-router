@@ -73,6 +73,10 @@ Each section lists rows of the form `pattern → command`. Match semantically, n
 | "wrap up the day" / "end of day" / "checkpoint today" | `/end-day` |
 | "wrap up the week" / "weekly retro" / "end of week" | `/end-week` |
 | "clean up my memory" / "prune stale entries" / "audit memory" | `/cleanup` |
+| "regenerate the memory catalog" / "refresh the index" / "rebuild memory/index" (v4.5+) | `/reindex` |
+| "what's missing from my memory" / "find gaps" / "research what we don't know" / "audit my knowledge for holes" (v4.5+) | `/research-gaps` |
+| "merge the research findings" / "apply the gap-fill draft" / "walk the research draft" (v4.5+) | `/merge-research-draft` |
+| "set up Obsidian" / "make this work on mobile" / "enable graph view" / "I want to use Obsidian" (v4.5+) | `/setup-obsidian` |
 | "set up cortex" / "first-time setup" / "configure identity" | `/setup-identity` |
 | "set up my voice" / "teach Claude how I write" | `/setup-voice` |
 | "connect note sources" / "set up Granola/Gemini/Fireflies/Otter" | `/setup-sources` |
