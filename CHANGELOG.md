@@ -2,6 +2,11 @@
 
 All notable changes to this plugin will be documented in this file.
 
+## [0.2.1] — 2026-05-20
+
+### Added
+- Intent rows for cortex v4.10.0's `/relink-memory` command — the retroactive wikilink + graduation backfill. Routed phrases: "relink my memory", "fix my wikilinks", "my graph is disconnected", "why isn't my obsidian graph showing edges", "back-fill the wikilinks", "graduate the people in my memory".
+
 ## [0.2.0] — Chief of Staff evolution (2026-05-20)
 
 Major rewrite. The router was a translator (utterance → command). It becomes a Chief of Staff orchestrator (verb → routed work, with parallel fan-out and narrated execution).

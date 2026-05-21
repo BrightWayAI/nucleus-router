@@ -1,6 +1,6 @@
 {
   "name": "nucleus-router",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Chief of Staff for Nucleus (v0.2+). The always-loaded skill that routes natural-language verbs and role-addressed requests to the right specialist agents, with parallel fan-out where independent, narrating the work rather than asking permission. 15 verbs at the user-facing surface (research / plan / track / draft / capture / catch me up / start day / close day / close week / clean up / review / bill / status update / what's on my plate / what's missing). Role-addressable fallback for direct agent invocation. The 60+ underlying slash commands stay as plumbing.",
   "author": {
     "name": "BrightWay AI"

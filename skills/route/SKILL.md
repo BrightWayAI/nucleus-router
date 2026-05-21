@@ -191,12 +191,13 @@ These 15 verbs cover the bulk of operator intent. Order doesn't matter; this is 
 **Parallel:** Yes — gap scan can happen while web research runs for high-priority gaps.
 
 ### 13. **clean up X** — Disambiguated
-**Patterns:** "clean up my memory", "prune stale entries", "audit my pipeline", "clean my voice file"
+**Patterns:** "clean up my memory", "prune stale entries", "audit my pipeline", "clean my voice file", "fix my wikilinks", "relink my memory", "my graph is disconnected"
 
 **Routes:**
-- Memory → `/cleanup`
+- Memory (general) → `/cleanup`
 - Voice → `/style-review`
 - Pipeline → COO `pipeline-analyst` cleanup mode
+- **Wikilinks / graph density / "back-fill links" / "graduate people"** → `/relink-memory` (v4.10+ — retroactive scan + person-page graduation)
 
 **Parallel:** No.
 
