@@ -1,7 +1,7 @@
 {
   "name": "nucleus-router",
-  "version": "0.1.4",
-  "description": "The JARVIS front door for Nucleus. An always-loaded skill that maps natural language to the right Nucleus slash command and confirms before running — so users never have to memorize 57 commands across 13 plugins.",
+  "version": "0.2.0",
+  "description": "Chief of Staff for Nucleus (v0.2+). The always-loaded skill that routes natural-language verbs and role-addressed requests to the right specialist agents, with parallel fan-out where independent, narrating the work rather than asking permission. 15 verbs at the user-facing surface (research / plan / track / draft / capture / catch me up / start day / close day / close week / clean up / review / bill / status update / what's on my plate / what's missing). Role-addressable fallback for direct agent invocation. The 60+ underlying slash commands stay as plumbing.",
   "author": {
     "name": "BrightWay AI"
   },
